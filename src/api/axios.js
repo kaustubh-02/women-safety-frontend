@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080',
+  baseURL: 'https://women-safety-backend-production.up.railway.app',
   headers: { 'Content-Type': 'application/json' },
   withCredentials: false  // yeh line add karo
 })
